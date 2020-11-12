@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:gravity="center">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+    </LinearLayout>
+    <Button
+        android:id="@+id/btnHardware"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="HARDWARE"
+        android:textSize="24dp"/>
+    <Button
+        android:id="@+id/btnSoftware"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="SOFTWARE"
+        android:textSize="24dp"/>
+    <Button
+        android:id="@+id/btnForo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="FORO EN LINEA"
+        android:textSize="24dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center|bottom">
+        <Button
+        android:id="@+id/btnNosotros"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="¿Quienes Somos?"/>
+        <Button
+            android:id="@+id/btnSalir"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Cerrar Sesión"/>
+
+    </LinearLayout>
+
+</LinearLayout>

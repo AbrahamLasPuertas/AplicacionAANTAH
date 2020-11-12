@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="10sp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="REGISTRO"
+            android:textSize="24dp"/>
+    </LinearLayout>
+    <EditText
+        android:id="@+id/RegistroNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ingresa tu Nombre"/>
+    <EditText
+        android:id="@+id/RegistroCorreo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ingresa tu Correo Electronico"
+        android:inputType="textEmailAddress"/>
+    <EditText
+        android:id="@+id/RegistroContra"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ingresa una Contraseña"
+        android:inputType="textPassword"/>
+    <EditText
+        android:id="@+id/RegistroContraRepetir"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Repite tu Contraseña"
+        android:inputType="textPassword"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center|top">
+        <Button
+            android:id="@+id/RegistroRegistrar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Registrarme"/>
+        <Button
+            android:id="@+id/RegistroVolver"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Volver"/>
+    </LinearLayout>
+
+
+</LinearLayout>
