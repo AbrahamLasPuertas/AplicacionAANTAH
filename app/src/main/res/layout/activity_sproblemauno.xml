@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="ARRANQUE DE SISTEMA" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Esto es causante debido a que programas se inician al encenderse la computadora y producen un cuello de botella al intentar ejecutarse todos los programas juntos. Para solucionar este problema debes seguir los siguientes pasos." />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="1.	Abrir el administrador de tareas presionando las teclas “CTRL+ALT+SUPR”." />
+
+            <ImageView
+                android:layout_width="260dp"
+                android:layout_height="260dp"
+                android:src="@drawable/problemauno"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="2.	Después das click en el botón “Inicio” "/>
+            <ImageView
+                android:layout_width="260dp"
+                android:layout_height="260dp"
+                android:src="@drawable/problemaunouno"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="3.	A continuación deshabilita las aplicaciones que no quieras que se inicien al encender la computadora."/>
+            <ImageView
+                android:layout_width="260dp"
+                android:layout_height="260dp"
+                android:src="@drawable/problemaunodos"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center">
+                <Button
+                    android:id="@+id/btnVolver"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="REGRESAR"/>
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

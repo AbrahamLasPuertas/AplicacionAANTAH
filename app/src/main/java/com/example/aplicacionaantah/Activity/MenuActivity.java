@@ -25,6 +25,22 @@ public class MenuActivity extends AppCompatActivity {
         btnSalir = (Button)findViewById(R.id.btnSalir);
         btnNosotros = (Button)findViewById(R.id.btnNosotros);
 
+        btnHardware.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MenuActivity.this, HardwareActivity.class));
+                finish();
+            }
+        });
+
+        btnSoftware.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MenuActivity.this, SoftwareActivity.class));
+                finish();
+            }
+        });
+
         btnForo.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -39,6 +55,14 @@ public class MenuActivity extends AppCompatActivity {
                 FirebaseAuth.getInstance().signOut();
                 Toast.makeText(MenuActivity.this, "Hasta Luego", Toast.LENGTH_SHORT).show();
                 returnLogin();
+            }
+        });
+
+        btnNosotros.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MenuActivity.this, WeActivity.class));
+                finish();
             }
         });
     }

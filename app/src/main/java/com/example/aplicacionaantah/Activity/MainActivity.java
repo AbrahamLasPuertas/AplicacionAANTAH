@@ -76,8 +76,11 @@ public class MainActivity extends AppCompatActivity {
         btnEnviar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                databaseReference.push().setValue(new MensajeEnviar(txtMensaje.getText().toString(), NOMBRE_USUARIO, "", "1", "", ServerValue.TIMESTAMP));
-                txtMensaje.setText("");
+                String mensaje = txtMensaje.getText().toString();
+                if (validarMensaje()){
+                    databaseReference.push().setValue(new MensajeEnviar(mensaje, NOMBRE_USUARIO, "", "1", "", ServerValue.TIMESTAMP));
+                    txtMensaje.setText("");
+                }
             }
         });
 
@@ -92,6 +95,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onItemRangeInserted(int positionStart, int itemCount) {
                 super.onItemRangeInserted(positionStart, itemCount);
+                setScrollbar();
             }
         });
 
@@ -127,7 +131,18 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void setScrollbar() {
-        rvMensajes.getLayoutManager().scrollToPosition(-1);
+        rvMensajes.scrollToPosition(adapter.getItemCount()-1);
+    }
+
+    public boolean validarMensaje(){
+        String mensaje;
+        mensaje = txtMensaje.getText().toString();
+        if (mensaje.isEmpty()){
+            return false;
+        }else{
+            return true;
+        }
+
     }
 
     @Override
