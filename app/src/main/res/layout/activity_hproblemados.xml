@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="TARJETA GRAFICA\n"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Un fallo de tarjeta gráfica lo podemos detectar fácilmente porque lo que ocurre cuando falla es que no visualizamos nada en la pantalla o visualizamos parpadeos, líneas o cuadrados. En caso de no ver nada en la pantalla, debemos fijarnos que el ordenador haga los ruidos pertinentes de un buen funcionamiento (que escuchemos el ventilador, el sonido de inicio de Windows, que al subir o bajar volumen escuchemos el típico “ping”, que al quitar el CD y cerrarlo haga un ruido para intentar leerlo, etc.)."/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/problemahdos"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="COMO SOLUCIONAR EL PROBLEMA\n"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Por lo general una tarjeta gráfica deja de funcionar por recalentamiento para esto  hay que limpiar nuestro PC quitando la tapa lateral y limpiar el polvo que ocasiona que la ventilación no circule bien ahora que si hablamos de una computadora portátil el mayor error es trabajar con ella en las piernas o ponerle un mantel abajo  ya que tapamos todas las salidas de ventilación"/>
+            <ImageView
+                android:layout_width="260dp"
+                android:layout_height="260dp"
+                android:src="@drawable/problemahdosuno"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="CONSEJOS PARA QUE TU TARJETA GRAFICA DURA MAS\n"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Ya sea para una computadora o un portátil solo basta con limpiarlas con aire comprimido o incluso a veces uno mismo puede soplar por las rejillas para que el polvo no se acumule o aún más simple con un pañuelo\n"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/problemahdosdos"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center">
+                <Button
+                    android:id="@+id/btnVolver"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="Regresar"/>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

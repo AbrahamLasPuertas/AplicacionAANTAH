@@ -73,6 +73,9 @@ public class MainActivity extends AppCompatActivity {
         rvMensajes.setLayoutManager(l);
         rvMensajes.setAdapter(adapter);
 
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        getSupportActionBar().setIcon(R.mipmap.ic_launcher);
+
         btnEnviar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

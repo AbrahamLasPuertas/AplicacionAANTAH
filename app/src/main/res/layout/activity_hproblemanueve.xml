@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="MOUSE/RATÓN\n"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="El ratón es uno de los periféricos indispensables para manejar nuestro PC. Por ello, los problemas en su funcionamiento, suelen generar muchos dolores de cabeza a los usuarios. Vamos a ver las causas de muchos de ellos.\n
+"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Problemas y soluciones \n"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="EL ratón  se bloquea y el cursor desaparece\n
+Este problema suele deberse, por curioso que pueda parecer, a una incompatibilidad reconocida con la Consola de sonido de Realtek. Para solventarlo, deberemos de abrir el «Administrador de tareas», haciendo clic con el botón derecho en la barra de tareas y seleccionando la aplicación. Luego iremos a la pestaña de «Inicio» y buscaremos la entrada «Realtek HD Audio Manager».
+"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/problemahnueve"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Haremos clic derecho y seleccionaremos «Deshabilitar». Al hacer esto, evitaremos que se ejecute la consola de sonido de Realtek. Y, con ello, evitaremos los problemas de bloqueo del ratón. Así como la desaparición del cursor.\n"/>
+            <LinearLayout
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <Button
+                    android:id="@+id/btnVolver"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="Regresar"/>
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

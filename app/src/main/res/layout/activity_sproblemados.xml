@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="POCA MEMORIA RAM"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Mejora el rendimiento, ya que libera parte de la memoria RAM utilizada para levantar los gráficos. Hacerlo es muy sencillo, sólo debemos hacer click derecho en Mi PC y luego escoger Propiedades, nos ubicamos en la pestaña Opciones avanzadas y hacemos click en Configuración en la sección de rendimiento. Una vez allí, ubicamos la opción Ajustar para obtener mayor rendimiento. Perderemos algunos efectos visuales, pero ganaremos velocidad de procesamiento\n"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/problemasdos"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="\nMinimizar la cantidad de programas que se inician en Windows al encender el equipo: Así, liberamos memoria y aumentamos el rendimiento. Esto lo logramos accediendo a Ejecutar desde el Menú de inicio, escribiendo la orden msconfig\n"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/problemasdosuno"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="\nUna vez hecho esto, se abrirá una ventana donde buscamos la pestaña de inicio. Allí, seleccionamos los programas que no son necesarios para el inicio de Windows, aceptamos y reiniciamos el equipo\n"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/problemasdosdos"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="\nNo abrir programas pesados de manera simultánea: Si evitamos abrir programas pesados de manera simultánea, podemos mejorar el rendimiento de la memoria RAM, sin necesidad de adicionar más memoria.\n\n"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center">
+                <Button
+                    android:id="@+id/btnVolver"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="Regresar"/>
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

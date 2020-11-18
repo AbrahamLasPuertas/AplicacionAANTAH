@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="DPC_WATCHDOG_VIOLATION\n"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Va directamente relacionado a la incompatibilidad o falta de actualización de los controladores. Estas actualizaciones debe enviarlas el fabricante por medio de Windows Update, pero por algún motivo aún no han llegado a ser instaladas en el sistema y al actualizarse Windows 10 generó el error. En estos casos, se recomienda visitar el sitio web oficial del fabricante del PC, descargar todos y cada uno de los controladores del hardware anteriormente mencionado, instalarlo, reiniciar el equipo y confirmar que este mensaje no se vuelva a presentar.\n"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/problemasdiez"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="El error se produce porque un driver del sistema no es totalmente compatible. Por ello, reemplazando este mientras tanto es posible que los usuarios que sufren el error puedan solucionarlo.\n
+Para ello realizamos los siguientes pasos:\n
+° Pulsamos botón derecho sobre el icono del menú Inicio\n
+° Elegimos Administrador de dispositivos\n
+° Vamos a Controladoras DE ATA/ATAPI\n
+° Seleccionamos el controlador con SATA AHCI en su nombre\n
+° Pulsamos botón derecho sobre el mismo y vamos a Propiedades, y luego a la pestaña Controlador\n
+° Ahí hacemos clic sobre Actualizar driver y seleccionamos Buscar software de controlador en el equipo\n
+° En el siguiente paso elegimos Elegir en una lista de controladores de dispositivo en el equipo\n
+° Ahora elegimos Controladora estándar SATA AHCI\n
+° Seguimos con el asistente hasta que se instale el nuevo driver\n
+° Tras esto reiniciamos y seguramente ya no volvamos a recibir el pantallazo azul. Habrá que esperar de todas formas que finalmente Microsoft lance una actualización que corrija el problema sin necesidad de realizar estos pasos.\n\n"/>
+            <LinearLayout
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <Button
+                    android:id="@+id/btnVolver"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="Regresar"/>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

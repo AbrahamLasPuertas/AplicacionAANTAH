@@ -8,15 +8,20 @@
     android:gravity="center">
     
     <LinearLayout
+        android:gravity="center"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_weight="1">
+        android:layout_weight="1"
+        android:orientation="vertical">
         <TextView
-            android:layout_width="match_parent"
+            android:textSize="32dp"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:hint="BIENVENIDO A AANTAH"
-            android:textSize="30sp"
-            android:gravity="center"/>
+            android:hint="BIENVENIDO A AANTAH"/>
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:src="@mipmap/ic_launcher"/>
     </LinearLayout>
 
     <EditText

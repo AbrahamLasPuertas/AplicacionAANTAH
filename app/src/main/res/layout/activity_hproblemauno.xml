@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical">
     <ScrollView
@@ -13,33 +14,34 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:hint="FUENTE DE ALIMENTACION"/>
+                android:hint="FUENTE DE ALIMENTACION\n"/>
             <ImageView
-                android:layout_width="260dp"
-                android:layout_height="260dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
                 android:src="@drawable/problemahuno"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:hint="La fuente de alimentación tiene 2 fallos  muy comunes que son: la ventilación y fallo eléctrico y ambos se pueden identificar por el sonido pero a veces el eléctrico no hace ningún sonido"/>
+                android:hint="La fuente de alimentación tiene 2 fallos  muy comunes que son: la ventilación y fallo eléctrico y ambos se pueden identificar por el sonido pero a veces el eléctrico no hace ningún sonido\n"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:hint="COMO SOLUCIONAR AMBOS PROBLEMAS
+                android:hint="COMO SOLUCIONAR AMBOS PROBLEMAS\n
 Para el fallo electrónico no cabe de otra más que cambiar la fuente, de nada servirá tratar de arreglarlo, y en esta ocasión es mejor cambiar la fuente,
-Pero si es falla del ventilador si se puede arreglar y es tan simple como abrir la fuente y lubricar el centro del ventilador y así se mejoraría el paso del aire y eliminaremos el sonido que emite
+Pero si es falla del ventilador si se puede arreglar y es tan simple como abrir la fuente y lubricar el centro del ventilador y así se mejoraría el paso del aire y eliminaremos el sonido que emite\n
 "/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:hint="CONSEJOS PARA QUE TU FUENTE DURE MAS
+                android:hint="CONSEJOS PARA QUE TU FUENTE DURE MAS\n
 Para que tu fuente de alimentación sea más duradera solo basta con asegurarse que tenga la potencia adecuada.
-Hay que mantenerla igual de limpia  que todos los demás componentes
+Hay que mantenerla igual de limpia  que todos los demás componentes\n
 "/>
             <ImageView
-                android:layout_width="260dp"
-                android:layout_height="260dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
                 android:src="@drawable/problemahunouno"/>
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"

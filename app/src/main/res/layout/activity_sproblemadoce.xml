@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="CONEXION Y CABLES DE CORRIENTE\n"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Comprueba que estén firmes y bien conectados todos los conectores y cables de alimentación. También verifica los de sistemas intermedios que puedas estar usando. Como regletas, extensiones, ladrones eléctricos, transformadores, protectores de sobretensión o Sistemas de Alimentación Ininterrumpida. Si todo está bien prueba a conectar el equipo a una toma de corriente distinta. Quizá se haya estropeado la que estás utilizando.\n\n
+Nota: ¿Tienes un laptop portátil y se apaga estando conectado sólo con la batería? Quítala y enciende el equipo conectándolo a la corriente. Si no falla, puede que la batería tenga un problema y debas repararla o sustituirla.
+"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="320dp"
+                android:src="@drawable/problemasdoce"/>
+            <LinearLayout
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <Button
+                    android:id="@+id/btnVolver"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="Regresar"/>
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

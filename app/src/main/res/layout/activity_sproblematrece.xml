@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="DISPOCITIVOS EXTERNOS\n"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="En este caso HARDWARE se refiere a la tarjeta gráfica/de vídeo, de sonido, de red por cable Ethernet o Wi-Fi, un modem o router, etc. Y dispositivos se refiere a impresoras, escáneres, webcams, etc.\n
+•	Si tienes un hardware/dispositivo nuevo y el PC ha empezado a apagarse desde que lo conectaste, quizá sea este el que provoca el fallo. Prueba a desconectar el hardware/dispositivo nuevo y a arrancar luego el PC. Si entonces se mantiene encendido es una buena pista de que ese elemento nuevo es el problema. Conéctalo bien, repáralo, o sustitúyelo según el caso.\n
+•	Si no tienes hardware/dispositivos nuevos puede que esté fallando alguno antiguo. Desconecta todo menos la tarjeta gráfica y el monitor, que son esenciales. Luego ve conectando uno a uno cada hardware o dispositivo y probando a arrancar el PC. El que lo haga fallar será el posible culpable. Tendrás que repararlo o cambiarlo.\n
+•	Verifica que están bien conectadas las tarjetas de vídeo, sonido, red, etc. También el módulo o módulos de memoria RAM.\n
+•	Asegúrate de que la RAM sea compatible con tu PC. Mira cuál lo es en el manual de la placa y compárala con el modelo de la tuya.\n
+•	Comprueba las conexiones de corriente (ATX o similares) de la placa principal, la CPU y los ventiladores (en especial el de la CPU).\n También las conexiones de los botones y LEDs del panel frontal, como el de encendido y reinicio.
+•	Chequea que están bien conectados los cables del disco duro, CD, etc.\n
+•	Aparta los cables que pueda haber demasiado cerca de los ventiladores, sobre todo del de la CPU. También los que estén muy próximos a los módulos de RAM.\n\n
+"/>
+            <LinearLayout
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <Button
+                    android:id="@+id/btnVolver"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="Regresar"/>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

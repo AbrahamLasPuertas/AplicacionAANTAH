@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="PROCESADOR\n"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="En un procesador hay pocos falos, pero todos tienen consecuencias fatales para nuestra maquina\n
+--Daño en la estructura interna: nos referimos a daños en los componentes electrónicos físicos, que por otro lado es el más común de todos y en el que derivan otros problemas que a continuación veremos. ¿Cómo identificarlo? Directamente el PC no dará señal de imagen, se reiniciará o directamente no arrancará.\n
+--Sobrecalentamiento: el segundo problema más común es el sobrecalentamiento debido a una mala colocación del disipador, problemas en el encapsulado de la propia CPU, o la acumulación de suciedad. ¿Cómo identificarlo? Notaremos que los ventiladores están al máximo (si funcionan) y el ordenador irá muy lento incluso podrá reiniciarse.
+"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/problemahsiete"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Como evitar los problemas\n"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Antes de utilizar nada para estresar nuestro equipo, conviene que miremos la temperatura en estado de reposo, porque así ya podremos detectar posibles fallos de refrigeración. Una CPU no debería en ningún momento de superar los 50 grados sin una carga de procesos fuerte. Tampoco los 75 grados estando sometido a estés.
+Incluso se puede instalar algún programa para saber si todo está funcionando correctamente o más sencillo aun, en  el Windows ya viene incluido y es simplemente el administrador de tareas. Con él miraremos cómo trabaja nuestro procesador, porque es posible que alguna atarea esté consumiendo más de lo que debiera y el problema sea de software y no de hardware\n
+"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center">
+                <Button
+                    android:id="@+id/btnVolver"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="Regresar"/>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

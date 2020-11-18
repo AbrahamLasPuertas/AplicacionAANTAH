@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="PLACA BASE\n"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Una placa base es la parte  que se encuentran y conectan todos los demás aparatos, componentes y dispositivos. Indispensable y necesario. La placa base es el componente principal de un ordenador. Y siendo la placa base donde hay muchos componentes o conectores puede tener varios fallos\n"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="•	Procesador\n
+•	Memoria RAM\n
+•	Disco duro y unidades SSD\n
+•	Tarjeta gráfica\n
+•	Pila de la placa base\n
+•	Fuente de alimentación\n
+•	Conectores USB del chasis, unidades flash o periféricos\n
+•	Cualquier otro objeto no identificado que tengamos conectado a la placa\n
+Son los posibles componentes que pueden dar falla ya que son los que están conectaos a la placa base\n
+"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/problemahcuatro"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="\nProblemas de Placa base\n"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Tocas el botón de encendido y el PC no arranca\n
+--Posible causa: fuente de alimentación, arranque mal conectado
+El PC arranca, pero no sale nada en la pantalla\n
+--Posible causa: BIOS des configurada, monitor roto o desconectado, tarjeta gráfica
+El PC arranca, pero no sale nada en la pantalla y se escuchan pitidos\n
+--Posible causa: componente defectuoso o mal conectado: CPU, RAM, HDD
+No termina de pasar el Post Screen y muestra algún mensaje en pantalla\n
+--Posible causa: componente defectuoso, ventilador CPU desconectado, BIOS des configurada
+No se detecta el disco duro, teclado, ratón y el PC no finaliza el arranque\n
+--Posible causa: periférico defectuoso, conector defectuoso o incompatibilidad
+El PC arranca, pero trascurrido un tiempo se apaga o reinicia\n
+--Posible causa: alto calentamiento, fuente de alimentación
+Antes de terminar de arrancar, sale un pantallazo azul\n
+--Posible causa: error en la memoria RAM, error en el sistema, error en el disco duro
+El ordenador arranca, pero no sale imagen o salen rayas en la pantalla\n
+--Posible causa: tarjeta gráfica mal conectada o rota, monitor roto
+Al conectar un USB el ordenador se apaga o reinicia\n
+--Posible causa: derivación de corriente al chasis, mal aislamiento, USB en mal estado\n
+"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Pasos para localizar síntomas de una placa base que no sirve\n"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Si el ordenador no enciende\n
+1.	Posiblemente el fallo sea de la fuente de alimentación. Verifica que alguna luz en el PC se encienda, en placa base, chasis o lo que sea.\n
+2.	Si nada se enciende, entonces retira la fuente de alimentación y prueba con otra que sepas que funciona bien.\n
+3.	Si hay luces encendidas, verifica que los conectores del arranque están instalados.\n
+Ahora que si el PC enciende es importante revisar todos los conectores, nunca está de más destapar nuestra máquina y dar una revisada ya que si no están bien conectados pueden llegar a descomponerse\n
+Si la destapamos hay que revisar dos cosas:\n
+--Comprueba los condensadores: son pequeños cilindros bastante visibles y situados en el VRM de la placa. Mira que no estén inflados o despegados de la placa. Estos elementos son fáciles de cambiar, por tener un tamaño accesible.\n
+--Comprueba chokes y conectores de alimentación: los chokes son esos cuadrados que hay al lado de los condensadores y se encarga de estabilizar el voltaje que el entra a la placa. Mira por la parte de atrás y delante de la placa, que no haya nada despegado de ella o algo quemado.\n
+"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center">
+                <Button
+                    android:id="@+id/btnVolver"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="Regresar"/>
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

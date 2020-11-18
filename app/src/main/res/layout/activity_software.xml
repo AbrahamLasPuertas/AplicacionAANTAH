@@ -21,79 +21,110 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:hint="SOFTWARE"
-                    android:textSize="16dp"/>
+                    android:textSize="24dp"/>
                 <Button
+                    android:textSize="20dp"
                     android:id="@+id/btnVolver"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:hint="volver"/>
             </LinearLayout>
             <TextView
+                android:textSize="20dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:hint="COMPUTADORA LENTA"/>
             <Button
+                android:textSize="24dp"
                 android:id="@+id/btnArranque"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="Arranque de sistema"/>
             <Button
+                android:id="@+id/btnRam"
+                android:textSize="24dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="Poca memoria RAM"/>
             <Button
+                android:id="@+id/btnBasura"
+                android:textSize="24dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="Archivos basura"/>
             <TextView
+                android:textSize="20dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="ERRORES DE SISTEMA OPERATIVO"/>
             <Button
+                android:id="@+id/btnAzul"
+                android:textSize="24dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="Pantalla azul"/>
             <Button
+                android:id="@+id/btnAzuluno"
+                android:textSize="20dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="CRITICAL_PROCESS_DIED"/>
             <Button
+                android:id="@+id/btnAzuldos"
+                android:textSize="20dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="SYSTEM_THREAD_EXCEPTION_NOT_HANDLED"/>
+                android:hint="SYSTEM_THREAD_EXCEPTION_NOT_\nHANDLED"/>
             <Button
+                android:id="@+id/btnAzultres"
+                android:textSize="20dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="IRQL_NOT_LESS_OR_EQUAL"/>
             <Button
+                android:id="@+id/btnAzulcuatro"
+                android:textSize="20dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="VIDEO_TDR_TIMEOUT_DETECTED"/>
             <Button
+                android:id="@+id/btnAzulcinco"
+                android:textSize="20dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="PAGE_FAULT_IN_NONPAGED_AREA"/>
             <Button
+                android:id="@+id/btnAzulseis"
+                android:textSize="20dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="SYSTEM_SERVICE_EXCEPTION: "/>
             <Button
+                android:id="@+id/btnAzulsiete"
+                android:textSize="20dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="DPC_WATCHDOG_VIOLATION"/>
             <TextView
+                android:textSize="20dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="REINICIO O APAGADO INESPERADO"/>
             <Button
+                android:id="@+id/btnConexion"
+                android:textSize="24dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="Conexion y cables de corriente"/>
             <Button
+                android:id="@+id/btnExterno"
+                android:textSize="24dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="dispocitivos externos"/>
             <Button
+                android:id="@+id/btnVoltaje"
+                android:textSize="24dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="voltaje"/>

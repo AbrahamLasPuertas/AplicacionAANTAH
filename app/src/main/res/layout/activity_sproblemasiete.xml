@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="IRQL_NOT_LESS_OR_EQUAL\n"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Se refiere a una de dos cosas: problemas con el controlador o un mal servicio de Windows causado por una herramienta de respaldo o un escáner de antivirus. A veces, la información adicional en su pantalla azul mostrará el controlador específico que causa el problema, pero este no es siempre el caso. Si muestra el controlador, querrá deshabilitarlo. Si no lo enumera, lea a continuación.
+Para rastrear el controlador de problema específico, deberá ejecutar Driver Verifier, una aplicación incluida con Windows.
+"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/problemassiete"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="1.	Haga clic en Start\n
+2.	Escriba verificador en el cuadro y presione Entrar\n
+3.	Seleccione Crear configuración estándar , luego haga clic en Siguiente , luego seleccione Seleccionar automáticamente todos los controladores instalados en esta computadora\n
+4.	Haga clic en Siguiente y luego en Finalizar\n
+5.	Reinicia tu computadora y verás la lista de controladores para verificar durante el inicio.\n
+"/>
+            <LinearLayout
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="Regresar"/>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

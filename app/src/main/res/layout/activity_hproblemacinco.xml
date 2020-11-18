@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="DISCO DURO\n"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Los errores de disco duro pueden suponer un problema de grandes dimensiones para los usuarios, dado que, en muchas ocasiones, supone perder todos los datos que en él teníamos almacenados. Y, por desgracia, en la mayoría de ocasiones se producen sin un aviso previo por parte del sistema.\n"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Exceso de temperatura "/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/problemahcinco"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Los errores de disco duro pueden suponer un problema de grandes dimensiones para los usuarios, dado que, en muchas ocasiones, supone perder todos los datos que en él teníamos almacenados. Y, por desgracia, en la mayoría de ocasiones se producen sin un aviso previo por parte del sistema.\n"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Exceso de temperatura\n
+Los discos duros suelen ser más sensibles a las temperaturas que sus contrapartes sólidos. Esto es así porque en un disco duro hay también una parte mecánica que tiene que funcionar a la vez y que, a su vez, genera calor. Este calor, si es excesivo, acaba degradando el motor eléctrico que hace girar a los platos. Lo habitual en un disco duro es que funcione correctamente hasta llegar a los 50 ºC de temperatura, pero a partir de 55 ºC es muy posible que comience a dar errores de funcionamiento.  Si llega hasta los 70 ºC, el disco duro se apagará por sí solo.
+La solución más sencilla a este problema es, obviamente, colocar un ventilador frente al disco duro y asegurarte que le llega suficiente aire del exterior, así como que el aire caliente no se quede dentro de la caja y sea correctamente evacuado.
+"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="El sistema operativo o la BIOS no detectan el disco duro "/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Esta clase de errores de disco duro puede tener varias vertientes:\n
+--El puerto SATA de la placa base está dañado. En este caso, podéis intentar conectarlo a otro puerto SATA de vuestra placa base.\n
+--El puerto SATA del disco duro está dañado. En este caso la solución es bastante más compleja, dado que pasa por encontrar un PCB igual al que emplea el disco duro con el conector dañado, y sustituirlo por el nuevo, al menos hasta que podáis sacar los datos de esa unidad.\n
+--El cable SATA está dañado. Los cables SATA son muy baratos, así que esa es vuestra mejor solución.\n
+--La fuente de alimentación no suministra suficiente corriente al disco duro. Los discos duros de 3,5″ se alimentan del canal +12 V de la fuente de alimentación, mientras que los de 2,5″ lo hacen del canal +5 V. Si la fuente no es capaz de suministrar suficiente potencia por estos canales, el disco duro no arrancará con el equipo, con lo que ni BIOS ni sistema operativo podrán detectarlo.\n
+"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Daños físicos\n
+Si se vierte agua o cualquier tipo de fluido sobre el disco duro, hay bastantes posibilidades de que este deje de funcionar. Especialmente si el agua llega a alcanzar el PCB que gobierna su funcionamiento. En este caso, como en otros anteriores, sustituir el PCB original por otro igual os puede ayudar a recuperar los datos de vuestro disco duro.
+Un caso diferente es si la unidad cae desde cierta altura o se le da un golpe fuerte. En este caso, lo más probable es que se desajusten las cabezas lectoras y / o los platos, con lo que la unidad quedará inservible y sin posibilidad de reparación por nuestra parte. O si, por algún casual, se rompen los sellos del disco, permitiendo la entrada de polvo en su interior.
+"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center">
+                <Button
+                    android:id="@+id/btnVolver"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="Regresar"/>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

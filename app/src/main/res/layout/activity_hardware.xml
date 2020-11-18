@@ -2,9 +2,12 @@
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
     android:layout_height="match_parent">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:orientation="vertical">
             <LinearLayout
                 android:layout_width="match_parent"
@@ -14,56 +17,77 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:hint="HARDWARE"
-                    android:textSize="16dp"/>
+                    android:textSize="24dp"/>
                 <Button
+                    android:textSize="20dp"
                     android:id="@+id/btnVolver"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:hint="volver"/>
+                    android:hint="Volver"/>
             </LinearLayout>
             <Button
+                android:textSize="24dp"
                 android:id="@+id/btnFuente"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="Fuente de alimentacion"/>
             <Button
+                android:textSize="24dp"
+                android:id="@+id/btnGrafica"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="Targeta grafica"/>
             <Button
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:hint="Placa base"/>
-            <Button
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:hint="Disco duro"/>
-            <Button
+                android:textSize="24dp"
+                android:id="@+id/btnRam"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="Memoria RAM"/>
             <Button
+                android:textSize="24dp"
+                android:id="@+id/btnPlaca"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Placa madre"/>
+            <Button
+                android:textSize="24dp"
+                android:id="@+id/btnDisco"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Disco duro"/>
+            <Button
+                android:textSize="24dp"
+                android:id="@+id/btnVentilacion"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="Ventilacion"/>
             <Button
+                android:textSize="24dp"
+                android:id="@+id/btnProcesador"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="Procesador"/>
             <Button
+                android:textSize="24dp"
+                android:id="@+id/btnTeclado"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="Teclado"/>
             <Button
+                android:textSize="24dp"
+                android:id="@+id/btnRaton"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="Mouse"/>
             <Button
+                android:textSize="24dp"
+                android:id="@+id/btnConexion"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="Conexiones"/>
 
 
         </LinearLayout>
+    </ScrollView>
 
 </LinearLayout>

@@ -3,45 +3,51 @@
     xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical">
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:hint="AANTAH"
-        android:textSize="24dp"/>
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:hint="Aantah es una aplicacion que sirve para auydar a usuarios de sistemas operativos Windows al igual que para que seamos una comunidad retroalimentativa donde todos podamos aportar un poco a la comunidad"
-        />
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:hint="Cualquier duda o sugerencia puedes buscarnos en nuestras redes sociales!"/>
     <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:gravity="center">
-        <ImageButton
-            android:layout_width="60sp"
-            android:layout_height="60sp"
-            android:src="@drawable/iconofacebook"/>
-        <ImageButton
-            android:layout_width="60sp"
-            android:layout_height="60sp"
-            android:src="@drawable/iconofacebook"/>
-    </LinearLayout>
-
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:gravity="center">
-        <Button
-            android:id="@+id/btnVolver"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:hint="regresar"/>
+            android:hint="AANTAH"
+            android:textSize="24dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Aantah es una aplicacion que sirve para auydar a usuarios de sistemas operativos Windows al igual que para que seamos una comunidad retroalimentativa donde todos podamos aportar un poco a la comunidad"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Cualquier duda o sugerencia puedes buscarnos en nuestras redes sociales!"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+            <ImageButton
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@mipmap/ic_launcher"/>
+            <ImageButton
+                android:layout_width="60sp"
+                android:layout_height="60sp"
+                android:src="@mipmap/ic_launcher"/>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+            <Button
+                android:id="@+id/btnVolver"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="regresar"/>
+        </LinearLayout>
     </LinearLayout>
+
 
 </LinearLayout>

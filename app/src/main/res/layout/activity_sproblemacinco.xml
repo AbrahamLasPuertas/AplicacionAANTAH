@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="CRITICAL_PROCESS_DIED\n"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="La causa más común de este error es que hubo un funcionamiento defectuoso en sus operaciones de sistema. Los motivos comunes incluyen instalaciones o desinstalaciones incorrectas o fallidas de software que puede haber dejado entradas no válidas en su registro de Windows, consecuencias de un ataque de virus o malware, apagado del sistema incorrecto debido a una falla de energía u otro factor, alguien con poco conocimiento técnico que haya borrado por accidente un archivo de sistema necesario o una entrada de registro, así como también otras causas. La mejor solución en Windows es configurar un «inicio limpio» en nuestro Windows de manera que el sistema operativo tan solo arranque con lo necesario para poder funcionar con normalidad.\n"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="1. Primero pondremos el comando “msconfig” y nos desplazamos a “Servicios”.\n"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/problemascinco"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="\nEn este apartado, tal como muestran las flechas, debemos ocultar los servicios de Windows (para evitar desactivar alguna cosa que no debamos) y desactivaremos todo lo demás que nos aparece, que serán todos los servicios de terceros que se cargan junto a Windows. Podemos desactivarlos uno a uno o utilizar el botón para ello. Una vez desactivados, reiniciamos de nuestro ordenador y esperamos a ver si vuelve a aparecer el fallo.\n
+De ser así, debemos seguir con los pasos anteriores. De no ser así, el causante de los fallos es algún programa instalado, por lo que debemos volver a hacer este pasó activando uno a uno los servicios hasta que el error vuelva a aparecer, identificando así al responsable. Desinstalada la aplicación causante de los problemas los errores deberían haber desaparecido.\n
+"/>
+            <LinearLayout
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <Button
+                    android:id="@+id/btnVolver"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="Regresar"/>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

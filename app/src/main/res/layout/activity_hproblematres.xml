@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="MEMORIA RAM\n"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Una memoria RAM es el tipo de memoria más común en ordenadores y otros dispositivos que es lo que hace que nuestra PC funcione, además las capacidades que posea la memoria dicen directamente en la velocidad  y rendimiento del equipo. Si el ordenador está dando inicios de demoras en su rendimiento y es incapaz de ejecutar simultáneamente los programas que guste, es muy posible que sean problemas de memoria"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/problemahtres"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Señales que la memoria RAM da si tiene falla\n"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="1°-Por lo general el equipo utilizado dará la alerta de que la  memoria RAM está casi llena, aunque el bajo rendimiento se notara antes de que el equipo avise\n
+2°-El equipo no se puede reiniciar o si bien se reinicia la PC se rehusara a cargar el sistema operativo como ejemplo Windows\n
+3°-Si el disco duro resplandece con un leve temblor mientras esta en uso el equipo, los microcircuitos de la memoria RAM están cerca de llenarse\n
+"/>         <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/problemahtresuno"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="\nSoluciones para tu memoria RAM\n"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="--A veces la misma vibración hace que la memoria RAM se valla soltando de apoco, hay que revisar frecuentemente que estén bien conectadas\n
+ --Limpie periódicamente el quipo, elimine el polvo y suciedad que puedan causar malas conexiones y que impidan el rendimiento de la memoria\n
+--Mueva todos sus archivos a una copia de seguridad o una memoria USB de todo lo importante o lo que no guste que sea borrado, así se evitara la pérdida de datos en caso de una falla\n
+"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center">
+                <Button
+                    android:id="@+id/btnVolver"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="Regresar"/>
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="SYSTEM_SERVICE_EXCEPTION\n"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Puede suceder por diversos motivos, entre los que se incluyen corrupción de archivos de sistema (generalmente causados por un corte eléctrico), problemas con la tarjeta gráfica y drivers desactualizados o con problemas.\n\n
+Lo primero que deberías intentar es actualizar Windows, ya que al hacerlo también estarás actualizando los principales drivers del sistema. Algunas veces, el tener drivers desactualizados puede provocar pantallazos azules por incompatibilidad con otras cosas, así que no pierdes nada por probar con esta solución porque te sorprendería la cantidad de veces que finiquita los problemas.\n\n
+"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="1. Ve al menú Actualización y seguridad y en la pestaña «Windows Update», descarga y aplica las actualizaciones que tengas pendientes.\n"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/problemasdiez"/>
+            <LinearLayout
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <Button
+                    android:id="@+id/btnVolver"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="Regresar"/>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

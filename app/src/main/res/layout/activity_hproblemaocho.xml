@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="TECLADO\n"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="El teclado en nuestro equipo hoy en di es indispensable ya que con el junto con el rato hacemos todo\n 
+Para el teclado tenemos dos sencillos problemas que son:\n
+--que no sirvan las teclas \n
+--que algunas teclas estén trabadas o mejor dicho que nuestro teclado escriba solo\n 
+"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/problemahocho"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="SOLUCIONES PARA LOS PROBLEMAS\n"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Primer problema: Uno de los problemas más típicos puede ser directamente que las teclas del teclado no funcionen. Apretamos las teclas y directamente no se escribe nada. Con un documento de Word abierto, al pulsar las teclas, no se escribe absolutamente ninguna. Tampoco se abre el menú de inicio al pulsar sobre la tecla Windows. En tal caso, podemos encontrarnos ante el problema de que el conector esté mal enchufado, si es un teclado externo. Para comprobar esto, nos iremos a la parte de atrás de la torre, donde están todos los puertos y conectores, y apretaremos el cable del teclado para comprobar que está bien conectado. Haremos lo mismo en el otro extremo del cable. Luego reiniciaremos el equipo y comprobaremos de nuevo si funciona el teclado.Es posible que haya una avería en el puerto, o también que el conector esté estropeado, ante lo cual sólo nos queda probar otro teclado o llevar nuestro teclado a un técnico informático para que lo revise. En el caso de los teclados inalámbricos, tendremos que hacer el mismo proceso, pero desconectando el USB a través del que se ha conectado al ordenador.\n\n
+Segundo problema: Otro de los problemas comunes con los teclados es que al pulsar una tecla, se escriban varios caracteres al mismo tiempo. Esto es molesto porque no podemos escribir de forma normal. Aquí el problema puede deberse no a la configuración del teclado, sino a la configuración del idioma en el que estamos escribiendo. Para comprobar que el alfabeto es el español de España, entraremos en nuestro “panel de control” y luego en “configuración regional y de idioma”. Comprobaremos las diferentes opciones (entraremos en la pestaña “Idiomas” y luego en “Detalles”) y nos aseguraremos de que está marcada la opción de “Español internacional (España)”. Después de arreglar lo que corresponde a la configuración del idioma comprobaremos que las teclas de nuestro teclado corresponden con nuestra lengua al escribir y no hay nada raro. Si esto no funcionara, existen también algunos virus que afectan a la configuración del teclado y hacen que no se pueda escribir correctamente, para lo que te recomiendo que te descargues un antivirus y limpies tu computadora para asegurarte de que no es esa la raíz del problema.\n
+"/>
+            <LinearLayout
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <Button
+                    android:id="@+id/btnVolver"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="Regresar"/>
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

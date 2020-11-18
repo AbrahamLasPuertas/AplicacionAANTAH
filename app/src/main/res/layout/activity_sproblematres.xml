@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="ARCHIVOS BASURA\n"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="También puedes borrar todos los archivos de programa descargados, archivos temporales, memoria caché, archivos de la papelera o historial de archivos del usuario con el Liberador de espacio en disco duro.\n
+Con esta herramienta, podrás saber la cantidad de gigas que podrás liberar si eliminas todos los archivos que Windows te recomienda. Puedes incluso consultar la lista de ficheros que se borrarán y deseleccionar aquellos que quieras conservar.\n"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/problemastres"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="\nConforme vamos utilizando la computadora para nuestras tareas diarias, se acumulan archivos innecesarios, tanto nuestros como generados por el sistema, la mejor solución para este problema es limpiar la computadora de este tipo de archivos, es recomendable formatear la computadora una vez al año.\n\n"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center">
+                <Button
+                    android:id="@+id/btnVolver"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="Regresar"/>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

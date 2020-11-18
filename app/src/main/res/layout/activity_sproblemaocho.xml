@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="VIDEO_TDR_TIMEOUT_DETECTED\n"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="hace referencia a la GPU (UNIDAD DE PROCESAMIENTO GRAFICO) El sobrecalentamiento es la causa común, por lo que es importante comprobar si sus ventiladores están funcionando correctamente. A veces, el polvo puede obstruir los ventiladores, por lo que se recomienda limpiar el equipo y todos sus ventiladores con aire comprimido. Si el problema persiste, es posible que necesite instalar una mejor refrigeración."/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Si este error ha empezado a aparecer recientemente, es posible que se deba a un controlador problemático o a una actualización. Para corregir este error, le recomendamos que realice Restaurar sistema. Si no está familiarizado, Restaurar sistema le permite restaurar el sistema y solucionar varios problemas. Para realizar la restauración del sistema, haga lo siguiente:\n"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="1.   Dirígete a tu panel de control y elige Crear un punto de restauración.\n "/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/problemasocho"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="2.	Ahora aparecerá la ventana Propiedades del sistema. Haga clic en el botón Restaurar sistema.\n"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/problemasochouno"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="3.	Cuando se abra la ventana Restaurar sistema, haga clic en Siguiente.\n"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/problemasochodos"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="4.	Ahora verá una lista de puntos de restauración. Si está disponible, marque Mostrar más puntos de restauración. Seleccione el punto de restauración deseado y haga clic en Siguiente.\n"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/problemasochotres"/>
+            <LinearLayout
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <Button
+                    android:id="@+id/btnVolver"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="Regresar"/>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

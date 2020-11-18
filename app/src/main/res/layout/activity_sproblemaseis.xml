@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="SYSTEM_THREAD_EXCEPTION_NOT_HANDLED\n"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Se produce cuando un subproceso del sistema genera una excepción que un controlador de errores no puede detectar. Debido a que este error pasó desapercibido, su computadora arrojó algunas banderas rojas y decidió apagarse para evitar daños adicionales. Este error generalmente ocurre debido a controladores desactualizados o programas defectuosos.\n
+Los controladores son lo que permite que las partes de su computadora y sus periféricos se comuniquen con su placa base, y los controladores mal configurados pueden generar una multitud de problemas.
+"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/problemasseis"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Este error en particular tiende a ser causado por programas obsoletos, como WinRing. El software de grabación ISO y el software de overclocking del procesador (como EVGA Precision o MSI Afterburner) también producen pantallazo azul, así que asegúrese de desinstalarlos también. Si después de verificar que sus controladores están actualizados y que su sistema está protegido contra programas dañinos, aún se encuentra con este pantallazo, entonces su sistema operativo puede necesitar una nueva instalación o usted tiene RAM defectuosa. Antes de intentar reinstalar Windows, asegúrese de actualizar su BIOS y asegúrese de que todos sus controladores hayan recibido el mantenimiento adecuado.\n"/>
+            <LinearLayout
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <Button
+                    android:id="@+id/btnVolver"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="Regresar"/>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

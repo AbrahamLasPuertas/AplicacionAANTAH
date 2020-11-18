@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="VENTILACION"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="El exceso de calor puede provocar que los ventiladores funcionen más rápido y continuamente, lo que podría dañar los componentes internos y reducir el rendimiento de la computadora. Es posible que su computadora incluya uno o más ventiladores para enfriar los componentes internos. En condiciones habituales de funcionamiento, es normal que una computadora genere una gran cantidad de calor y se caliente al tacto según el uso. Los ventiladores que continúan girando muy rápido y producen ruidos fuertes y anormales pueden indicar que existe un problema."/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Algunas causas comunes por las que los ventiladores no funcionan, emiten un ruido fuerte o anormal, o se sobrecalientan son:\n
+--Obstrucciones en los ventiladores o los orificios de ventilación\n
+--Acumulación de polvo en los orificios o los ventiladores\n
+--No hay suficiente ventilación\n
+--Daño físico\n
+--Controladores de dispositivos y BIOS desactualizados\n
+"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/problemahseis"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Solución de problemas\n
+Los orificios de ventilación bloqueados pueden causar graves problemas de rendimiento debido a que restringen el flujo de aire. Esto puede causar que el procesador, la memoria (RAM) y otro hardware se calienten en exceso, lo cual puede dar lugar a una posible falla de hardware. El calor excesivo también puede causar una disminución significativa del rendimiento debido a que la mayoría de los procesadores reduce automáticamente la velocidad del procesador para ayudar a compensar los problemas relacionados con el calor. Si observa que el ventilador del sistema funciona constantemente y produce un ruido fuerte o anormal, esto podría indicar que la PC no está funcionando como debería o que los orificios de ventilación están tapados.
+Es importante para evitar que se acumule polvo en el equipo y garantizar una ventilación adecuada para ayudar a reducir el calor. La acumulación de polvo y pelusas impide que el aire fluya alrededor de las aletas del ventilador y hace que el ventilador haga un trabajo más pesado.
+Es posible que su computadora Dell tenga varios ventiladores para mantener fríos los componentes internos:\n
+•	Las PC de escritorio cuentan con más de un ventilador: en el procesador (CPU), en la tarjeta de video dedicada o discreta (GPU), en la fuente de alimentación (PSU) y uno o más ventiladores en el chasis (gabinete).\n
+•	Es posible que las laptops también tengan más de un ventilador y que estos varíen entre los diferentes modelos.\n
+"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="¡Para esto el equipo tiene que estar apagado!\n"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center">
+                <Button
+                    android:id="@+id/btnVolver"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="Regresar"/>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
